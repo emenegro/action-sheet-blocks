@@ -12,7 +12,7 @@ Installation instructions
 											 destructiveButtonTitle:@"Delete"
 												  otherButtonTitles:@"Option 1", @"Option 2", nil];
 
-3. Now you have a bunch of new method to show the sheet passing the completion handler.
+3. Now you have several new methods to show the sheet passing the completion handler.
     
 		[sheet showInView:view
                   handler:^(UIActionSheet *actionSheet, NSInteger buttonIndex) {
